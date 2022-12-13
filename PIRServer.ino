@@ -1,13 +1,13 @@
 #include <ESP8266WiFi.h>
 #include "ESPAsyncWebServer.h"
 
-const char* ssid = "WAREHOUSE";
-const char* password = "india@12345";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 const int ledPin = 2;
 
 // Set your Static IP address
-IPAddress local_IP(192, 168, 0, 230);
+IPAddress local_IP(192, 168, 0, 130);
 // Set your Gateway IP address
 IPAddress gateway(192, 168, 1, 1);
 
