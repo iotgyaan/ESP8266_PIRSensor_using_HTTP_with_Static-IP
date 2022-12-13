@@ -1,1 +1,1 @@
-# ESP8266_PIRSensor_using_HTTP_with_Static-IP
+# PIR Sensor based LED Control over WiFi with Static IP using NodeMCU
