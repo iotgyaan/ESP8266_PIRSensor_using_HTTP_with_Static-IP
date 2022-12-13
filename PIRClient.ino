@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
-const char* ssid = "WAREHOUSE";
-const char* password = "india@12345";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
-const char* serverNameledOn = "http://192.168.0.230/ledon";
-const char* serverNameledOff = "http://192.168.0.230/ledoff";
+const char* serverNameledOn = "http://192.168.0.130/ledon";
+const char* serverNameledOff = "http://192.168.0.130/ledoff";
 
 int led = 12;                // the pin that the LED is atteched to
 int sensor = 2;              // the pin that the sensor is atteched to
@@ -13,7 +13,7 @@ int state = LOW;             // by default, no motion detected
 int val = 0;                 // variable to store the sensor status (value)                
 
 // Set your Static IP address
-IPAddress local_IP(192, 168, 0, 230);
+IPAddress local_IP(192, 168, 0, 130);
 // Set your Gateway IP address
 IPAddress gateway(192, 168, 1, 1);
 
